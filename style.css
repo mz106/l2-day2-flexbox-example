@@ -6,13 +6,27 @@
 
 body {
   border: 10px solid gold;
-  height: 100vh;
+  height: 200vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  /* background-image: url("images/tree.jpg"); */
+}
+
+.tree-img-container {
+  width: 40%;
+  height: 63vh;
+}
+
+.tree-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .wrapper {
+  width: 100%;
   border: 5px solid purple;
   display: flex;
   justify-content: space-evenly;
